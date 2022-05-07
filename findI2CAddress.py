@@ -12,7 +12,7 @@ i2c = busio.I2C(board.GP1, board.GP0)
 
 """
 try:
-    ic2.unlock()
+    i2c.unlock()
 """
 
 while not i2c.try_lock():
